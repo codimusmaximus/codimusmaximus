@@ -1,49 +1,41 @@
-# Hey, I'm Alexander 👋
+# alexander leirvåg
 
-Building databases for the AI era.
-
-## ChimeraDB
-
-I'm the creator of **[ChimeraDB](https://github.com/codimusmaximus/chimeradb)** - a knowledge graph database that combines vector embeddings, Cypher graph queries, and full SQL analytics in a single SQLite file.
-
-```python
-from chimeradb import KnowledgeGraph
-
-kg = KnowledgeGraph("my.db")
-
-# Vector search - find by meaning
-kg.search("who works on language models?")
-
-# Graph queries - express relationships naturally
-kg.cypher("MATCH (p:Person)-[:WORKS_AT]->(c:Company) RETURN p, c")
-
-# SQL analytics - when you need it
-kg.query("SELECT COUNT(*) FROM graph_nodes")
-```
-
-**Why it matters:** Most AI apps need semantic search, graph relationships, AND analytics. ChimeraDB gives you all three without managing separate databases.
-
-**Perfect for:** RAG systems, AI agents, recommendation engines, knowledge graphs
-
-[Install from PyPI](https://pypi.org/project/chimeradb/) | [Documentation](https://github.com/codimusmaximus/chimeradb/tree/main/docs) | [Examples](https://github.com/codimusmaximus/chimeradb/tree/main/examples)
-
-## What I'm Working On
-
-- Expanding ChimeraDB platform support (Linux/Windows)
-- Building AI tools that combine semantic understanding with structured data
-- Exploring the intersection of databases, vector search, and graph analytics
-
-## Tech Stack
-
-**Languages:** Python, SQL, TypeScript
-**Interests:** Databases, Vector Search, Graph Algorithms, LLM Applications, RAG
-
-## Connect
-
-- 🌐 [alexander.space](https://alexander.space)
-- 📧 alexander@prismeta.com
-- 🐙 Open to collaboration on database tooling and AI infrastructure
+building infrastructure for autonomous organizations @ [causeway.run](https://causeway.run)
 
 ---
 
-*Currently: Making databases smarter for LLM applications*
+### thesis
+
+most "ai agents" are just workflow automation with extra steps. you still babysit them.
+
+that's not autonomy. that's expensive automation.
+
+**the path forward:**
+
+learning ≠ baking facts into weights
+learning = building systems that know *how* to know
+
+---
+
+### current
+
+**[causeway](https://causeway.run)** — autonomous business infrastructure
+- zero dashboards
+- zero maintenance
+- pure delegation
+
+**[chimeradb](https://github.com/codimusmaximus/chimeradb)** — knowledge graph database
+- vector embeddings + graph queries + SQL analytics
+- single SQLite file
+- built for AI agents
+
+---
+
+### links
+
+- [alexander.space](https://alexander.space)
+- [linkedin](https://linkedin.com/in/alexanderleirvag)
+
+---
+
+<sub>*systems that run parts of your business while you sleep*</sub>
